@@ -24,54 +24,158 @@
         font-weight: 600;
         color: #ffffff;
         font-size: 20px;}
-        .serviceCard{
-            margin: 5px 5px 5px 5px ;
-            height: 30rem;
-           
-        }        
-        .serviceCard:hover{
-            margin: 5px 5px 5px 5px ;
-            height: 30rem;
-        }        
-        
-        
-        .serviceMainTitle  {
-            text-align: center;
-            color: #4c67ed;
-            margin-top: 3rem;
-            margin-bottom: 2rem;
-            font-family: 'Montserrat', sans-serif ;
-            font-size: 20px;
-            font-weight: 400;}
-        .serviceName{
-        margin-top: 1rem;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 400;}
-        .navTitle{
-            font-family: 'Montserrat', sans-serif;
-            color: #ffffff !important;
-            font-weight: 700;
-            font-size: 24px;
-           }
-        
-         
-        .navItem {
-            font-size: 12px;
-            text-decoration:none !important;
-            font-family: 'Montserrat', sans-serif ;
-            font-weight: 300;
-            color: #ffffff !important; 
-        }
-        .navItemScroll {
-            font-size: 12px;
-            text-decoration:none !important;
-            font-family: 'Montserrat', sans-serif ;
-            font-weight: 300;
-            color: #000000 !important;}
-            
-        .navBackGround{
-                background-color: rgba(00,00,00,0.0)!important;
-                    }
-        .navBackGroundScroll{
-                        background-color: #ffffff!important;}
+.serviceCard{
+    margin: 5px 5px 5px 5px ;
+    height: 30rem;
+   
+}        
+.serviceCard:hover{
+    margin: 5px 5px 5px 5px ;
+    height: 30rem;
+}        
+
+
+.serviceMainTitle  {
+    text-align: center;
+    color: #4c67ed;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 20px;
+    font-weight: 400;}
+.serviceName{
+margin-top: 1rem;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+font-weight: 400;}
+.navTitle{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+   }
+
+ 
+.navItem {
+    font-size: 12px;
+    text-decoration:none !important;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 300;
+    color: #ffffff !important; 
+}
+.navItemScroll {
+    font-size: 12px;
+    text-decoration:none !important;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 300;
+    color: #000000 !important;}
+    
+.navBackGround{
+        background-color: rgba(00,00,00,0.0)!important;
+            }
+.navBackGroundScroll{
+                background-color: #ffffff!important;
+                    }            
+
+.des{
+    font-weight: 400;
+    color:#000000 ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-justify: auto;
+}
+.summarySection{
+    margin-top: 6rem;
+}
+.summaryBanner{
+    background-image: url("../image/a.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summaryBannerOverlay{
+    position: absolute;
+    min-height: 300px;
+    width: 100%;
+    background:rgba(0,0,0,0.6);
+}
+.countSection{
+    margin-top: 15%;
+}    
+.countNumber{
+    color: #ffffff;
+    font-family:  'Montserrat', sans-serif ;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.countTitle{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    }
+.projectCard{
+   border-radius: 2px; 
+   border: none!important;
+    margin: 2px 2px 2px 2px;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0, 2);
+}   
+.projectCard:hover{
+ box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0, 2);
+ }    
+
+ .projectCardDescribtion{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;}
+
+.videoCard{
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0, 2);
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: #ffffff;
+    margin: 50px auto;
+}    
+.playBtn{
+   color: #0073e6;
+   font-size: 48px; 
+   cursor: pointer;
+}
+.videoTitle{
+    color: #0073e6;
+    font-family:  'Montserrat', sans-serif ;
+    font-size: 22px;
+    font-weight: 600;
+}
+.videoDes{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight:400 ;
+    text-align: justify;
+}
+.circleImg{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #0073e6;
+    border-radius: 50%;
+    text-align: center;
+}
+.footerSection{
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0, 2);
+    margin-top: 5rem;
+    font-size: 12px;
+}
+.copyrightSection{
+    padding: 20px 20px 20px 20px;
+    background-color: #0073e6;
+}
+.copyrightLink{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
