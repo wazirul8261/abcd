@@ -1,0 +1,77 @@
+.topfixedBanner{
+    background-image: url("../image/a.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position:absolute ;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.topContent{
+    margin-top: 10rem;
+}
+.topTitle{font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;}
+    .topSubTitle{font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 20px;}
+        .serviceCard{
+            margin: 5px 5px 5px 5px ;
+            height: 30rem;
+           
+        }        
+        .serviceCard:hover{
+            margin: 5px 5px 5px 5px ;
+            height: 30rem;
+        }        
+        
+        
+        .serviceMainTitle  {
+            text-align: center;
+            color: #4c67ed;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            font-family: 'Montserrat', sans-serif ;
+            font-size: 20px;
+            font-weight: 400;}
+        .serviceName{
+        margin-top: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;}
+        .navTitle{
+            font-family: 'Montserrat', sans-serif;
+            color: #ffffff !important;
+            font-weight: 700;
+            font-size: 24px;
+           }
+        
+         
+        .navItem {
+            font-size: 12px;
+            text-decoration:none !important;
+            font-family: 'Montserrat', sans-serif ;
+            font-weight: 300;
+            color: #ffffff !important; 
+        }
+        .navItemScroll {
+            font-size: 12px;
+            text-decoration:none !important;
+            font-family: 'Montserrat', sans-serif ;
+            font-weight: 300;
+            color: #000000 !important;}
+            
+        .navBackGround{
+                background-color: rgba(00,00,00,0.0)!important;
+                    }
+        .navBackGroundScroll{
+                        background-color: #ffffff!important;}
